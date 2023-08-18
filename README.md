@@ -1,4 +1,4 @@
-This is simple tool to run fernflower decompiler and from any place using shorter command
+This is simple tool to run fernflower decompiler and from any place using shorter command. Works on Windows
 ## Install:
 * Create `FERNFLOWER_PATH` variable in system variables and set it to FernFlower jar path
 * Copy .exe to new folder
