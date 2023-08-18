@@ -4,23 +4,9 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"strings"
 )
 
 const sep string = string(os.PathSeparator)
-
-func get_folder_file(path string) (folder string, filename string) {
-	ls := strings.Split(path, sep)
-	
-	if len(ls) > 0 {
-		filename = ls[len(ls)-1]
-		ls = ls[:len(ls)-1]
-	}
-
-	folder = strings.Join(ls, sep)
-
-	return folder, filename
-}
 
 func main(){
 	path := os.Getenv("FERNFLOWER_PATH")
